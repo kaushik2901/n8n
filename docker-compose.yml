@@ -3,6 +3,7 @@ version: '3.8'
 services:
   n8n:
     image: n8nio/n8n:latest
+    container_name: n8n
     restart: always
     ports:
       - "5678:5678"
@@ -42,6 +43,7 @@ services:
 
   postgres:
     image: postgres:15-alpine
+    container_name: postgres
     restart: always
     environment:
       - POSTGRES_DB=${POSTGRES_DB:-n8n}
