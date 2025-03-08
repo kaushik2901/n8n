@@ -1,1 +1,0 @@
-# All the n8n data will be persisted in this folder

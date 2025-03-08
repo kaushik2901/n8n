@@ -1,1 +1,0 @@
-# All the postgres data will be persisted in this folder
