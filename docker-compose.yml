@@ -30,6 +30,7 @@ services:
       - ./data/n8n:/home/node/.n8n
     networks:
       - n8n-network
+      - web
     depends_on:
       - postgres
     healthcheck:
