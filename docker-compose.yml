@@ -63,7 +63,6 @@ services:
 volumes:
   n8n_data:
   postgres_data:
-  nginx_cache:
 
 networks:
   n8n-network:
