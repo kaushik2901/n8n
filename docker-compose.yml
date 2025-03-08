@@ -5,8 +5,6 @@ services:
     image: n8nio/n8n:latest
     container_name: n8n
     restart: always
-    ports:
-      - "5678:5678"
     environment:
       - N8N_HOST=${N8N_HOST:-localhost}
       - NODE_ENV=production
